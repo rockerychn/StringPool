@@ -1,0 +1,3282 @@
+POST /api/v1/buckets/test/objects/upload?prefix=cG9sYWZzX2FyY2gucG5n HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 105202
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryFKsYwxkCgB850foT
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 05:13:36 GMT
+Content-Length: 0
+Connection: close
+
+PUT /test/test/88.txt HTTP/1.1
+Host: 127.0.0.1:9000
+User-Agent: MinIO (darwin; amd64) minio-go/v7.0.69 MinIO Console/(dev)
+Content-Length: 1198
+Authorization: AWS4-HMAC-SHA256 Credential=0VEF1XKXJD239XLMF5VN/20240422/us-east-1/s3/aws4_request,SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-security-token,Signature=761be914d8a676ac549ed49363aec900e8b3cb0d23ca711669a86d7a1a511693
+Content-Type: text/plain
+X-Amz-Content-Sha256: STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+X-Amz-Date: 20240422T074607Z
+X-Amz-Decoded-Content-Length: 1024
+X-Amz-Security-Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiIwVkVGMVhLWEpEMjM5WExNRjVWTiIsImV4cCI6MTcxMzgwNTkxMywicGFyZW50IjoibWluaW9hZG1pbiJ9.S8D1gHNyZYNVglzanHRJNaPkOSLGXCq_rAnL5XGO3mSa5yy0eLCC1o53POCjWKKvcimN9uucxIFgS9Zd6y3bAg
+X-Forwarded-For: 127.0.0.1
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 0
+ETag: "c9a34cfc85d982698c6ac89f76071abd"
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8
+X-Amz-Request-Id: 17C88A8640D77EC8
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymzKy3bogrszTefUk
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+PUT /test/test/16.txt HTTP/1.1
+Host: 127.0.0.1:9000
+User-Agent: MinIO (darwin; amd64) minio-go/v7.0.69 MinIO Console/(dev)
+Content-Length: 1198
+Authorization: AWS4-HMAC-SHA256 Credential=0VEF1XKXJD239XLMF5VN/20240422/us-east-1/s3/aws4_request,SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-security-token,Signature=e470cb8c101a2552dc75cee4f2fd8f979d786297285d5221858c22fd2d0d83b5
+Content-Type: text/plain
+X-Amz-Content-Sha256: STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+X-Amz-Date: 20240422T074607Z
+X-Amz-Decoded-Content-Length: 1024
+X-Amz-Security-Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiIwVkVGMVhLWEpEMjM5WExNRjVWTiIsImV4cCI6MTcxMzgwNTkxMywicGFyZW50IjoibWluaW9hZG1pbiJ9.S8D1gHNyZYNVglzanHRJNaPkOSLGXCq_rAnL5XGO3mSa5yy0eLCC1o53POCjWKKvcimN9uucxIFgS9Zd6y3bAg
+X-Forwarded-For: 127.0.0.1
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 0
+ETag: "c9a34cfc85d982698c6ac89f76071abd"
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8
+X-Amz-Request-Id: 17C88A8639B92740
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+
+PUT /test/test/11.txt HTTP/1.1
+Host: 127.0.0.1:9000
+User-Agent: MinIO (darwin; amd64) minio-go/v7.0.69 MinIO Console/(dev)
+Content-Length: 1198
+Authorization: AWS4-HMAC-SHA256 Credential=0VEF1XKXJD239XLMF5VN/20240422/us-east-1/s3/aws4_request,SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-security-token,Signature=89afaa41cce901e2c6e4c82415419850f46f1ef7747361db134358bc2b4e2a17
+Content-Type: text/plain
+X-Amz-Content-Sha256: STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+X-Amz-Date: 20240422T074607Z
+X-Amz-Decoded-Content-Length: 1024
+X-Amz-Security-Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiIwVkVGMVhLWEpEMjM5WExNRjVWTiIsImV4cCI6MTcxMzgwNTkxMywicGFyZW50IjoibWluaW9hZG1pbiJ9.S8D1gHNyZYNVglzanHRJNaPkOSLGXCq_rAnL5XGO3mSa5yy0eLCC1o53POCjWKKvcimN9uucxIFgS9Zd6y3bAg
+X-Forwarded-For: 127.0.0.1
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Length: 0
+ETag: "c9a34cfc85d982698c6ac89f76071abd"
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Id-2: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8
+X-Amz-Request-Id: 17C88A863DAB3960
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYXLGCOaNVuDKvo1S
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLZB2MBQ4SNB4Icjh
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTJRrABQuhYnCLwJo
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarycucVQSgjKmOBAFZQ
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQuFH8FdC1Cz9ngBi
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryU1FQqAnu21hAqHCY
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBBJC8ysiLehwsFbp
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjIuWW7X2dNROj9hB
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryO16jYplupYLwBHAr
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySz5yB08SVAIKR7Eu
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLsAipMHO6Wdy8Ga7
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydDyojLljqBVrmxoO
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: token=AJKQO6GpHLUXzIQZLH84bfSzJp3xW/LCMz14L19RLxwxkRq5q+anDgT3sDotmm1gJi5IkA4DqTlMBDGycjIQE1RGNTVqJPxXYhXR5rP7bpM6usQkl33Uoty+BSs3nGQHuvmgCQP8ac4WWebzvoI+DykotfUC9yJ8lQBIeT3/aba5PWEHg/hliQZLPKe9L8mBtM3Iip2fZvb7H/QxDDqEWdkqM6rA225GgOYdSIgcgocwFu4gH9M14We/g99QZXSQe2kVd9DoiZBG6amIEeOOGSuCWo8AUrj7vVFOD2pdCCpfMNjxS2pY8oTkr0sE0ZxC0A3+hh3415hJ639SDV93Zn+2O/dYvpcaTlTb//BbHLpA2semAW2qjv+s6hQbdHEMU4UstLw1UwT/PGVVAIbXuwyVEiZ0o7O/FlgJWhIhs+9RHlWcRPJ+8gEn45igUk/k1SWAHfyFyKVPgtamJgsCbCr54aV4igxQNjyaLHyx9Tv/95bZZQoKoL3VkzvDcqS5OEHusFvDbTh8PZfGJP70VWiR8tz2H7D3t3ZinoAdOGT2LBlPzUcK00Pwbw==
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuvvTAaHR5RoQPNZW
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymkBLMqrLxVIcUQXt
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysps5aOzUMiXagh6x
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEaqwanRA45WOJacc
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymzKy3bogrszTefUk
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKn544wr338Cx1FSy
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLAn3mNwyKpftajZE
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYXLGCOaNVuDKvo1S
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryueWJqiFTQWyZMhuL
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylhI9QR5EurvWBKcD
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryijS8mYmiP2gn0YcW
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryvEv7zaB8DHv077nE
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLZB2MBQ4SNB4Icjh
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJ4ZBWCwokc0fpLTr
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary97qyRhdWj52p6vuX
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarys09v6rhnekCB9EQJ
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarycAl68Wl6Ed7WdAAq
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygeCGjmWLgG9Bwrcs
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEifL7LZH5CuSzFly
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzlNSgoDnakotAG8h
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybYwAFDMqz0WzvNNR
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqb2GVrFon9quXFMv
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOS50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryahnXfCLvQ0bvTUhT
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2SNiuBasSEFuAuru
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGBIXwZe4q2aG1H4A
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOC50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLP35sBOfjz8glPrs
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKu2lrytm4kMEvBAs
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryyuyxEdVA4BN9NL7b
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryr4U85SATHjUeTw8t
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqpitnGPlIevnQsQA
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryeqRIHPeigpApwYld
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiONmHuKfgEGckkBh
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjMMkfSqoLyBKaOA9
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJcWHbhG2Y6wv0l1Z
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHtMxgySSFj3Wwiol
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryM2d8KPHusTBjUi9N
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNC50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydZspOSB3e6efgMWr
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryh2Z9gCfBL4XP5HG6
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryd8B9oNF7Dv8VflkB
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNi50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryW1tKK8oBwkIF1RsX
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYcAvJdrBFsigOBGx
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryZ1aqq4AG4TVZUswo
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYMbBzjc73E5WW2Ci
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryc0kUuWcpZtgnWmw0
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoYfNbbAEKiqkS0nS
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:07 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNy50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAF0DjStb2u6ggYUC
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaAZF4xLeHBFH9Jb4
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBg2pXFevRcCzblDu
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNjkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAyaEBQeCewp5dL0s
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7NBe6c3oXR0PAmGS
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTZjQ76mAs9gOxNFs
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMy50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2jdqlwDiJ5EFn8tk
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLesoVIzoiGYWDlko
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1v9Wj5y2ZMogWJXh
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryyJSRI8Fr1ddxpemQ
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygrIWAFKd6jlUwLdQ
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGDYAsf04AKPwPyYe
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNzgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVfPeamKKmIMgHhlL
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6pvmcp3BLFCOuhgP
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMi50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGj5rkL6HHqL2oVUB
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymls6ABm3iDARfRCf
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMC50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygySdzPuf47xk8PNd
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynqSA8Gh6B6sJXYBT
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVvR9Nm1j8oKgjohQ
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryR8AbqHcWPEAfmxQX
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1fh45ga1sBng7Aws
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvODQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryy86UBlyTTBzEyAgX
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvOTAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymvFB6pTeMxuFixOL
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNDcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCUAVjTa01K9BWdQV
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMS50eHQ= HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1203
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPsK2vSrm4iBy4NBd
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvNTMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypCPFbpH42KeGIIYW
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryy4EDPFLLe5m4oxPA
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybclntx5QS99XPWTb
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6aB3tN7UMbdtHDBN
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryxB0IbcJHhQsnVSBu
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryyt0rTRx6Oekgc7FB
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYCPwXJXzsZOu1BLV
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryg9EfNduABMrdUPUp
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzGMG4R4NajqSItTx
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjYudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaEovA10OxIqAoCie
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzIudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryayTQPRI9fExRABIk
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzMudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRm3PjdR6hgHH4p8k
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjcudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary48PY2Kn2BO1ZEgiB
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzEudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoXEsUoXcUtRRCBde
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjUudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySBA42hxvmjpuFq8f
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTkudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1sIPwTTOJvBUYpE6
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMTgudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoefTKXuw62uWCkDJ
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMjQudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEcw6ASqho4oLJldn
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+
+POST /api/v1/buckets/test/objects/upload?prefix=L3Rlc3QvMzAudHh0 HTTP/1.1
+Host: 127.0.0.1:54922
+Connection: keep-alive
+Content-Length: 1204
+sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+sec-ch-ua-platform: "macOS"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypOqe29s2mDTnoRBL
+Accept: */*
+Origin: http://127.0.0.1:54922
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:54922/browser/test
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9
+
+HTTP/1.1 200 OK
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: strict-origin-when-cross-origin
+Server: MinIO Console
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 22 Apr 2024 07:46:08 GMT
+Content-Length: 0
+Connection: close
+

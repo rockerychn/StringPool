@@ -1,3 +1,5 @@
+project(str)
+
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
 file(GLOB SOURCES *.cpp)

@@ -1,0 +1,2 @@
+/Users/chenyan/Desktop/github/StringPool/CMakeFiles/edit_cache.dir
+/Users/chenyan/Desktop/github/StringPool/CMakeFiles/rebuild_cache.dir

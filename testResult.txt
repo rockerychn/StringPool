@@ -1,0 +1,186 @@
+Warning: Debuggee TargetArchitecture not detected, assuming x86_64.
+=library-unloaded,id="/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor",target-name="/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor",host-name="/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor"
+Loaded '/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor'. Symbols loaded.
+Loaded '/usr/lib/dyld'. Symbols loaded.
+=library-unloaded,id="/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor",target-name="/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor",host-name="/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor"
+Loaded '/usr/lib/libz.1.dylib'. Symbols loaded.
+Loaded '/usr/lib/libSystem.B.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libcache.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libcommonCrypto.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libcompiler_rt.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libcopyfile.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libcorecrypto.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libdispatch.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libdyld.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libkeymgr.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libmacho.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libquarantine.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libremovefile.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_asl.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_blocks.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_c.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_collections.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_configuration.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_containermanager.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_coreservices.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_darwin.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_darwindirectory.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_dnssd.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_eligibility.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_featureflags.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_info.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_m.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_malloc.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_networkextension.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_notify.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_sandbox.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_sanitizers.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_secinit.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_kernel.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_platform.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_pthread.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_symptoms.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libsystem_trace.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libunwind.dylib'. Symbols loaded.
+Loaded '/usr/lib/system/libxpc.dylib'. Symbols loaded.
+Loaded '/usr/lib/libc++abi.dylib'. Symbols loaded.
+Loaded '/usr/lib/libobjc.A.dylib'. Symbols loaded.
+Loaded '/usr/lib/liboah.dylib'. Symbols loaded.
+Loaded '/usr/lib/libc++.1.dylib'. Symbols loaded.
+=thread-selected,id="1"
+pool cache size:32768
+in32768 out2602
+in32768 out1469
+in32768 out1483
+in32768 out1326
+totalSize: 131072 compressedSize: 6880
+compression ratio: 0.0524902
+pool cache size:16384
+in16384 out2273
+in16384 out1510
+in16384 out1082
+in16384 out1088
+in16384 out1097
+in16384 out1091
+in16384 out1088
+in16384 out927
+totalSize: 131072 compressedSize: 10156
+compression ratio: 0.0774841
+pool cache size:8192
+in8192 out2126
+in8192 out1308
+in8192 out1319
+in8192 out1356
+in8192 out894
+in8192 out879
+in8192 out906
+in8192 out876
+in8192 out906
+in8192 out886
+in8192 out889
+in8192 out908
+in8192 out891
+in8192 out891
+in8192 out897
+in8192 out513
+totalSize: 131072 compressedSize: 16445
+compression ratio: 0.125465
+pool cache size:4096
+in4096 out1499
+in4096 out1898
+in4096 out1236
+in4096 out1225
+in4096 out1235
+in4096 out1235
+in4096 out1250
+in4096 out781
+in4096 out783
+in4096 out786
+in4096 out771
+in4096 out776
+in4096 out787
+in4096 out799
+in4096 out765
+in4096 out775
+in4096 out786
+in4096 out800
+in4096 out788
+in4096 out787
+in4096 out768
+in4096 out774
+in4096 out803
+in4096 out782
+in4096 out796
+in4096 out777
+in4096 out771
+in4096 out787
+in4096 out784
+in4096 out791
+in4096 out499
+totalSize: 126976 compressedSize: 28094
+compression ratio: 0.221254
+pool cache size:2048
+in2048 out1233
+in2048 out1133
+in2048 out1197
+in2048 out1054
+in2048 out1183
+in2048 out1180
+in2048 out1065
+in2048 out1197
+in2048 out1188
+in2048 out1186
+in2048 out1183
+in2048 out717
+in2048 out728
+in2048 out975
+in2048 out725
+in2048 out727
+in2048 out704
+in2048 out721
+in2048 out716
+in2048 out724
+in2048 out730
+in2048 out717
+in2048 out723
+in2048 out737
+in2048 out719
+in2048 out715
+in2048 out723
+in2048 out697
+in2048 out714
+in2048 out723
+in2048 out726
+in2048 out728
+in2048 out717
+in2048 out708
+in2048 out740
+in2048 out717
+in2048 out726
+in2048 out716
+in2048 out728
+in2048 out702
+in2048 out731
+in2048 out724
+in2048 out718
+in2048 out726
+in2048 out739
+in2048 out721
+in2048 out729
+in2048 out720
+in2048 out700
+in2048 out716
+in2048 out718
+in2048 out718
+in2048 out722
+in2048 out727
+in2048 out712
+in2048 out734
+in2048 out724
+in2048 out732
+in2048 out720
+in2048 out1198
+in2048 out517
+totalSize: 124928 compressedSize: 49388
+compression ratio: 0.395332
+The program '/Users/chenyan/Desktop/github/StringPool/Examples/MergingConstructor' has exited with code 0 (0x00000000).

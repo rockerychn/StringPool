@@ -37,6 +37,8 @@ SOFTWARE.
 #include <type_traits>
 #include <vector>
 
+using namespace std;
+
 template <typename T, bool NullTerminateStrings = true>
 class StringBlock;
 
@@ -85,6 +87,33 @@ public:
         standardBlockCapacity = newStandardBlockCapacity;
     }
 
+    [[nodiscard]] std::size_t getPoolInfo() const noexcept
+    {
+        //for (size_t i = 0; i < blocks.size(); ++i) {
+            // 使用 *it 进行操作
+            //std::cout << blocks[i].size << std::endl;
+        //}
+        cout << "totalSize: " << totalSize << " compressedSize: " << compressedSize << endl;
+        cout << "compression ratio: " << (double)compressedSize / totalSize << endl;
+        return 0;
+    }
+    [[nodiscard]] bool compress()
+    {
+        for (size_t i = 0; i < blocks.size(); ++i) {
+            // 使用 *it 进行操作
+            compressedSize += blocks[i].compressData();
+            totalSize += blocks[i].size;
+        }
+        return true;
+    }
+    [[nodiscard]] bool decompress()
+    {
+        for (size_t i = 0; i < blocks.size(); ++i) {
+            // 使用 *it 进行操作
+            bool ret = blocks[i].decompressData();
+        }
+        return true;
+    }
 private:
     using BlockIterator = typename Blocks::iterator;
 
@@ -119,9 +148,11 @@ private:
             return std::prev(end);
         return begin;
     }
-
+public:
     Blocks blocks;
     std::size_t standardBlockCapacity = 8192;
+    std::size_t totalSize = 0;
+    std::size_t compressedSize = 0;
 };
 
 template <typename T, bool NullTerminateStrings>
@@ -178,6 +209,67 @@ public:
         return NullTerminateStrings;
     }
 
+    [[nodiscard]] std::size_t compressData() {
+        z_stream stream;
+        std::memset(&stream, 0, sizeof(stream));
+
+        if (deflateInit(&stream, Z_BEST_COMPRESSION) != Z_OK) {
+            return 0;
+        }
+
+        compressedData.resize(compressBound(size));
+        stream.next_in = reinterpret_cast<unsigned char*>(memory.get());
+        stream.avail_in = size;
+
+        stream.next_out = compressedData.data();
+        stream.avail_out = compressedData.size();
+
+        deflate(&stream, Z_FINISH);
+        deflateEnd(&stream);
+
+        compressedData.resize(stream.total_out);
+        compressed = true;
+        compSize = stream.total_out;
+        //delete(memory);
+
+        cout << "in" << size << " out" << stream.total_out << endl;
+
+        return stream.total_out;
+    }
+
+    [[nodiscard]] bool  decompressData() {
+        z_stream stream;
+        std::memset(&stream, 0, sizeof(stream));
+
+        if (!compressed) {
+            return false;
+        }
+
+        if (inflateInit(&stream) != Z_OK) {
+            // 解压缩初始化失败
+            return false;
+        }
+        std::unique_ptr<T[]> tmp = std::make_unique<T[]>(size);
+        memory = std::move(tmp);
+
+        stream.next_in = compressedData.data();
+        stream.avail_in = compressedData.size();
+
+        stream.next_out = reinterpret_cast<unsigned char*>(memory.get());
+        stream.avail_out = size;
+
+        inflate(&stream, Z_FINISH);
+        inflateEnd(&stream);
+
+        //decompressedData.resize(stream.total_out);
+        freeSpace = size - stream.total_out;
+        compressed = false;
+
+        cout << "in" << compressedData.size() << " out" << stream.total_out << endl;
+        cout << memory.get() << endl;
+
+        return true;
+    }
 private:
     [[nodiscard]] std::size_t getUsedSpace() const noexcept
     {
@@ -193,10 +285,13 @@ private:
     }
 
     static constexpr T nullChar = 0;
-
+public:
     std::unique_ptr<T[]> memory;
+    std::vector<unsigned char> compressedData;
+    std::size_t compSize = 0;
     std::size_t size = 0;
     std::size_t freeSpace = 0;
+    bool compressed = false;
 };
 
 template <typename BlockIterator>
