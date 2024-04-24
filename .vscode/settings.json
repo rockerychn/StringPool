@@ -1,6 +1,0 @@
-{
-    "cmake.buildEnvironment": {
-        "std": "c++17",
-        "W": "c++17-extensions"
-    }
-}

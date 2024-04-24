@@ -1,4 +1,0 @@
-/Users/chenyan/Desktop/github/StringPool/Examples/CMakeFiles/MergingConstructor.dir
-/Users/chenyan/Desktop/github/StringPool/Examples/CMakeFiles/Threaded.dir
-/Users/chenyan/Desktop/github/StringPool/Examples/CMakeFiles/edit_cache.dir
-/Users/chenyan/Desktop/github/StringPool/Examples/CMakeFiles/rebuild_cache.dir

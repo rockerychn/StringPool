@@ -1,27 +1,20 @@
 cmake_minimum_required(VERSION 3.16)
-project(StringPool CXX)
+project(str)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+set(THREADS_PREFER_PTHREAD_FLAG ON)
 
-if (MSVC)
-  add_compile_options(/W4 /WX /w44388)
-else()
-  add_compile_options(-Wall -Wextra -pedantic -Werror)
-endif()
+file(GLOB SOURCES *.cpp)
 
-include_directories(.)
+find_package(Threads REQUIRED)
 
-option(BUILD_EXAMPLES "Build examples" OFF)
+add_compile_options(-Wall -Wextra -pedantic -Werror)
 
-if (BUILD_EXAMPLES)
-  add_subdirectory(Examples)
-endif()
+foreach(SOURCE ${SOURCES})
+  get_filename_component(BIN_NAME ${SOURCE} NAME_WE)
+  add_executable(${BIN_NAME} ${SOURCE})
+  target_link_libraries(${BIN_NAME} PRIVATE Threads::Threads)
+endforeach()
 
-option(BUILD_TESTS "Build unit tests" OFF)
-
-if (BUILD_TESTS)
-  enable_testing()
-  add_subdirectory(Tests)
-endif()

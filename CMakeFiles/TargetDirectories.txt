@@ -1,2 +1,3 @@
-/Users/chenyan/Desktop/github/StringPool/CMakeFiles/edit_cache.dir
-/Users/chenyan/Desktop/github/StringPool/CMakeFiles/rebuild_cache.dir
+/Users/chenyan/Desktop/gitee/meta-cache/code/MetaCache/CMakeFiles/main.dir
+/Users/chenyan/Desktop/gitee/meta-cache/code/MetaCache/CMakeFiles/edit_cache.dir
+/Users/chenyan/Desktop/gitee/meta-cache/code/MetaCache/CMakeFiles/rebuild_cache.dir
